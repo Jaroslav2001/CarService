@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgba(240, 240, 240, 0.2); ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../img/body_1366x768.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    background-image: url('../img/car.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 126px;
+    height: 126px;
+}
+
+header > .description > .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > .description > .wrapper > .name{
+    margin: 10px;
+}
+
+header > .description > .wrapper > .number{
+    margin: 10px;
+}
+
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav > ul > li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0 2px;
+    border: black solid 3px;
+}
+
+nav > ul > li > a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+main{
+	display: block;
+	margin: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgba(240, 240, 240, 0.2);   
+}
+
+footer > div{
+    border: black solid 3px;
+    padding: 10px;
+    margin: 5px;
+}
+
+p, li{
+    font-size: 24px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 27px;
+}
+
+img{
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: black solid 3px;
+    border-radius: 25px;
+}
+
+.btn > a{
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+.btn > a:hover{
+    color: #000;
+    text-decoration: underline;
+}
